@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOVEX Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+    <h1>SOVEX <sub><em>Technologies</em></sub></h1>
+</header>
+
+<!-- Slideshow Section -->
+<div class="slideshow-container">
+    <div class="slide fade">
+        <img src="images/image1.jpeg" alt="Slide 1">
+    </div>
+    <div class="slide fade">
+        <img src="images/image2.jpeg" alt="Slide 2">
+    </div>
+    <div class="slide fade">
+        <img src="images/image3.jpeg" alt="Slide 3">
+    </div>
+    <div class="slide fade">
+        <img src="images/image4.jpeg" alt="Slide 4">
+    </div>
+    <div class="slide fade">
+        <img src="images/image5.jpeg" alt="Slide 5">
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+<div id="sidebar">
+    <button id="close-btn" onclick="toggleMenu()">✖</button>
+    <nav class="sidebar-content">
+      <hr>
+        <a href="index.html" onclick="toggleMenu()">Home</a>
+        <hr>
+        <a href="about.html" onclick="toggleMenu()">About Us</a>
+        <hr>
+        <a href="services.html" onclick="toggleMenu()">Our Services</a>
+        <hr>
+        <a href="register.html" onclick="toggleMenu()">Join Us</a>
+        <hr>
+        <a href="contact.html" onclick="toggleMenu()">Contact Us</a>
+    </nav>
+    <hr>
+</div>
+<!--First Section (Landing page)-->
+<section>
+<h2><hr class="style1">Welcome To <br> SOVEX<sup>™</sup>
+        <hr class="style2"></h2>
+
+    <p style="margin-top: 5px; text-align:center;">
+        <strong>SOVEX Technologies,</strong> Innovating the Future with Creativity and Technology. 
+        Explore our cutting-edge solutions in web development, mobile apps, AI, and digital design. 
+        Let's build something extraordinary together!
+    </p>
+
+    <hr class="style3">
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
